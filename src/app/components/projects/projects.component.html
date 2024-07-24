@@ -1,0 +1,252 @@
+<div class="container">
+  <div class="projectContainer">
+    <h2 class="heading">
+      <span
+        class="headingMain"
+        data-aos="fade-up"
+        data-aos-delay="100"
+        data-aos-duration="1000"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+        >Projects</span
+      >
+      <span
+        class="headingSub"
+        data-aos="fade-up"
+        data-aos-delay="150"
+        data-aos-duration="1000"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        Here you will find some of the personal projects on that i
+        worked with their live link.
+      </span>
+    </h2>
+
+    <app-project-items Responsive>
+      <img
+        src="../../../assets/projects/PhySEED.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      PhySEED
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      Phy SEED is an innovative entrepreneurship project developed as part of the entrepreneurship curriculum. The primary focus of this project is the sale of high-quality seedlings, aimed at promoting sustainable gardening and agricultural practices.
+      </p>
+     
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      
+      <div class="skillsIcon">
+        <div class="toolsName" *ngFor="let tools of firstPoject">
+          {{ tools.name | uppercase }}
+         
+            <img
+              class="imgResponsive"
+              src="../../../assets/skills/figma1.ico"
+              id="html"
+            />
+          </div>
+        </div>
+      </div>
+    
+      <button mat-raised-button class="livBtn" (click)="projectOne()">
+        Live Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img
+        src="../../../assets/projects/laverde.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      LA VERDE ECO HOUSE CONSTRUCTION
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      La Verde Eco House Construction offers a comprehensive job board where civil engineers can explore a wide range of job opportunities tailored to their skills and experience. Engineers can create detailed profiles showcasing their portfolios, qualifications, and past projects. Our platform also allows for networking and professional growth through ratings, reviews, and feedback from clients.        at.
+      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      
+      <div class="skillsIcon">
+        <div class="toolsName" *ngFor="let tools of secoundProject">
+          {{ tools.name | uppercase }}
+         
+            <img
+              class="imgResponsive"
+              src="../../../assets/skills/figma1.ico"
+              id="html"
+            />
+          </div>
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectTwo()">
+        Live Link
+      </button>
+    </app-project-items>
+
+    <app-project-items Responsive>
+      <img
+        src="../../../assets/projects/Evac.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        Evac
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      EVAC - Evacuation Center is an innovative project designed for our major subject, focusing on creating a mobile prototype to enhance emergency response and evacuation efforts during crises and natural disasters. This mobile unit is engineered to serve as a comprehensive solution for managing and coordinating evacuation processes, ensuring safety and support for affected individuals.
+      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      <div class="skillsIcon">
+        <div class="toolsName" *ngFor="let tools of thirdProject">
+          {{ tools.name | uppercase }}
+         
+            <img
+              class="imgResponsive"
+              src="../../../assets/skills/figma1.ico"
+              id="html"
+            />
+          </div>
+        </div>
+      </div>
+      <button mat-raised-button class="livBtn" (click)="projectThree()">
+        Live Link
+      </button>
+    </app-project-items>
+
+
+
+    <app-project-items Responsive>
+      <img
+        src="../../../assets/projects/project1.png"
+        alt="Software Screenshot"
+        class="projectsRowImg"
+        loading="lazy"
+      />
+      <h3
+        class="projectsRowContentTitle"
+        data-aos="fade-down-left"
+        data-aos-delay="120"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+        TJ's Burger
+      </h3>
+      <p
+        class="projectsRowContentDesc"
+        data-aos="fade-left"
+        data-aos-delay="150"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+      J's Burger is a static website created as my final project during my first year of college. It showcases a fictional burger restaurant, featuring a home page with an introduction, a menu page detailing the restaurant’s offerings, an about page with background information, and a contact page for inquiries. The website was developed using HTML and CSS, demonstrating my foundational skills in web design and development. This project provided essential hands-on experience and served as an introduction to creating user-friendly and visually appealing web pages.      </p>
+      <div
+        class="tools"
+        data-aos="zoom-in-left"
+        data-aos-delay="190"
+        data-aos-duration="500"
+        data-aos-easing="ease forwards"
+        data-aos-offset="100"
+        data-aos-once="true"
+      >
+     
+        <div class="toolsName" *ngFor="let tools of fourthProject">
+          {{ tools.name | uppercase }}
+    
+          </div>
+        </div>
+        
+     
+      <button mat-raised-button class="livBtn" (click)="projectFour()">
+        Live Link
+      </button>
+    </app-project-items>
+    
+
+
+  </div>
+</div>
