@@ -3,11 +3,11 @@ export const environment = {
 
   // socialLinks
 
-  fbLink: 'https://m.me/dj05142019',
+  fbLink: 'https://www.facebook.com/darlenetalapian101',
   instaLink: 'www.instagram.com/login',
-  youtubeLink: 'https://www.youtube.com/@RaldCodeVBNET',
-  linkedinLink: 'www.linkedin.com/in/jerald-tulibao-776aa1279',
-  githubLink: 'https://www.github.com/@09639096126',
+  youtubeLink: '',
+  linkedinLink: '',
+  githubLink: '',
 
   // email js
 
